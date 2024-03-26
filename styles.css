@@ -1,0 +1,237 @@
+/* *{
+    border: 1px solid white;
+} */
+body{
+    background-color: rgba(24,25,26);
+    color: white;
+    margin: 0px 10px;
+}
+nav{
+    background-color: rgba(36,37,38);
+    color:whitesmoke;
+}
+.optImg{
+    width: 40px;
+    height: 40px;
+}
+label:hover{
+    color: rgb(220,220,220);
+    cursor: pointer;
+}
+.con {
+    height: 86vh;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 10px;
+}
+.con::-webkit-scrollbar {
+    display: none;
+  }
+
+
+/* .fbIconText{
+    text-decoration: none;
+}
+.fbIconImg{
+
+} */
+.fbSearchInput{
+    background-color: rgb(58,59,60);
+    border: none;
+}
+.fbsearch{
+    background-color: rgb(58,59,60);
+    border-radius: 30px;
+    padding: 5px;
+    height: 2rem;
+}
+.navnav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.firstGroup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.secondGroup{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.g2Icon{
+    width: 35px;
+    height: 32px;
+}
+.g3Icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.content{
+    padding: 5px;
+}
+.statusBar{
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    overflow-x:scroll;
+    padding: 5px;
+}
+.statusBar::-webkit-scrollbar {
+    display: none;
+  }
+.statusCard{
+    border: 2px solid rgb(177,180,183);
+    padding: 0;
+    margin-left: 5px;
+    height: 18rem;
+    width: 8rem;
+    border-radius: 20px;
+    /* background: url(./assets/img/photo1.avif); */
+    >.statusImg{
+        height: 90%;
+        overflow: hidden;
+    }
+    >.statusText{
+    display: flex;
+    justify-content: center;
+     float: bottom;   
+    }
+}
+.statimg{
+    height: 100%;
+}
+.feed{
+    background-color: rgb(36,37,38);
+    border-radius: 10px;
+    padding-top: 10px;
+
+    >.yourThought{
+        display: flex;
+        justify-content: center;
+        align-items: space-between;
+        flex-direction: row;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+}
+.profileIcon{
+    border-radius: 50%;
+}
+.inputFeed{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(50, 51, 52);
+    width: 85%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    /* >input{
+        background-color: rgb(100, 100, 100);
+        border: none;
+        width: 100%;
+    } */
+}
+.centerOption{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: space-between;
+    /* padding: 5px; */
+}
+.centerOptions{
+    margin: 1rem;
+}
+.colcontent{
+    height: 88vh;
+    width: 70%;
+    float: right;
+    font-weight: bold;
+    overflow-y: scroll;
+    color: rgb(217,218,219);
+}
+.colcontent::-webkit-scrollbar {
+    display: none;
+  }
+.unknownProfile{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.contactMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.contact{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    >label{
+        padding: 5px;
+        color: rgb(217,218,219);
+    }
+}
+.globe{
+    width: 20px;
+    height: 20px;
+}
+.pureAuthor{
+    display: flex;
+    flex-direction: row;
+align-items: center;    
+}
+.aboutAuthorBrief{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 10px ;
+}
+.closeBtn{
+    border: none;
+    background-color:rgba(36,37,38) ;
+    color: rgb(177,180,183);
+}
+.post{
+    background-color: rgba(36,37,38);
+    margin-top: 5px;
+    border-radius: 10px;
+}
+.postImg{
+    padding: 10px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.myCommentLine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    >input{
+        width: 100%;
+    }
+}
+.commetSticker{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.texts{
+    margin-left: 10px;
+}
